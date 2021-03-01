@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@color/colorPrimaryDark"
     android:layout_height="match_parent"
-    tools:context="com.android.developer.arslan.advancemusicplayer.Tunes">
+    tools:context="com.sarkar.developer.arslan.advancemusicplayer.">
 
     <ListView
         android:layout_width="match_parent"

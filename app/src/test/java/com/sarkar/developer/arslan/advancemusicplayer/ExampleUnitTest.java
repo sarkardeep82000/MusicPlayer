@@ -1,4 +1,4 @@
-package com.android.developer.arslan.advancemusicplayer;
+package com.sarkar.developer.arslan.advancemusicplayer;
 
 import org.junit.Test;
 

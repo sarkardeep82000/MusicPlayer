@@ -1,32 +1,24 @@
-package com.android.developer.arslan.advancemusicplayer;
+package com.sarkar.developer.sandipan.musicplayer;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.graphics.PorterDuff;
-import android.media.MediaMetadataRetriever;
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.os.Build;
-import android.service.quicksettings.Tile;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import org.w3c.dom.Text;
+
+import com.android.developer.sandipan.advancemusicplayer.R;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.jar.Manifest;
+
 public class PlayerActivity extends AppCompatActivity{
 
     static MediaPlayer mp;//assigning memory loc once or else multiple songs will play at once

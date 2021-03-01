@@ -1,4 +1,4 @@
-package com.android.developer.arslan.advancemusicplayer;
+package com.sarkar.developer.arslan.advancemusicplayer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
